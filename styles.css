@@ -322,6 +322,72 @@ section ul {
     background-color: #0056b3;
 }
 
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.membre {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.membre img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.membre h3 {
+    color: #0066cc;
+    margin-bottom: 0.5rem;
+}
+
+.equipe-intro {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #eef6fb;
+}
+
+.services-intro {
+    background-color: #eef6fb;
+    text-align: center;
+    padding: 2rem;
+}
+
+.services-liste {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.service h3 {
+    color: #0066cc;
+    margin-bottom: 0.5rem;
+}
+
+.service ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+}
+
+
+
 /* Footer */
 footer {
   background-color: #1565c0;

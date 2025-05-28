@@ -22,10 +22,35 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Connexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Cabinet Paramédical Occitania</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/icon.ico" type="image/x-icon">
 </head>
 <body>
+    <header>
+        <button id="menu-toggle" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <a href="../index.php" class="titre-accueil">
+            <h1>Cabinet Paramédical Occitania</h1>
+        </a>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="equiperp.php">Notre équipe</a></li>
+                <li><a href="services.php">Nos services</a></li>
+                <li><a href="contact.php" class="active">Prendre rendez-vous</a></li>
+                <li><a href="#">Espace professionnel</a>
+                    <ul class="sous-menu">
+                        <li><a href="connexion.php">Connexion</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <h1>Connexion à l'espace professionnel</h1>
         <?php if (isset($erreur)) echo "<p style='color:red;'>$erreur</p>"; ?>
@@ -39,5 +64,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <input type="submit" value="Se connecter">
         </form>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+            this.querySelectorAll('span').forEach(span => span.classList.toggle('active'));
+        });
+    </script>
 </body>
 </html>
