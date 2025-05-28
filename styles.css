@@ -223,6 +223,104 @@ section ul {
     font-size: 1.1rem;
 }
 
+/* Formulaire de rendez-vous */
+#rdv {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#rdv h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #005f73;
+}
+
+#rdv p {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.formulaire-rdv label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulaire-rdv input,
+.formulaire-rdv select,
+.formulaire-rdv textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.formulaire-rdv textarea {
+    resize: vertical;
+}
+
+.formulaire-rdv button {
+    background-color: #005f73;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulaire-rdv button:hover {
+    background-color: #0a9396;
+}
+
+.confirmation-section {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.confirmation-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.confirmation-details li {
+    margin-bottom: 0.8rem;
+}
+
+.message-box {
+    background-color: #e8f4ff;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #007BFF;
+    margin-top: 0.5rem;
+}
+
+.btn-retour {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-retour:hover {
+    background-color: #0056b3;
+}
 
 /* Footer */
 footer {

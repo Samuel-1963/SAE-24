@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,21 +15,25 @@
             <span></span>
             <span></span>
         </button>
-        <a href="index.html" class="titre-accueil">
+        <a href="index.php" class="titre-accueil">
             <h1>Cabinet Paramédical Occitania</h1>
         </a>
         <nav id="main-nav">
             <ul>
-                <li><a href="pages/equipe.html">Notre équipe</a></li>
+                <li><a href="pages/equiperp.php">Notre équipe</a></li>
                 <li><a href="pages/services.html">Nos services</a></li>
                 <li><a href="pages/contact.html">Prendre rendez-vous</a></li>
                 <li><a href="#">Espace professionnel</a>
                     <ul class="sous-menu">
-                        <li><a href="pages/gantt.html">GANTT</a></li>
-                        <li><a href="pages/livrables.html">Livrables</a></li>
-                        <li><a href="pages/equipe.html">Équipe</a></li>
-                        <li><a href="pages/site-prive.html">Accès interne</a></li>
-                        <li><a href="pages/connexion.html">Connexion</a></li>
+                        <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
+                            <li><a href="pages/gantt.php">GANTT</a></li>
+                            <li><a href="pages/livrables.php">Livrables</a></li>
+                            <li><a href="pages/equipe.php">Équipe</a></li>
+                            <li><a href="pages/site-prive.php">Accès interne</a></li>
+                            <li><a href="pages/deconnexion.php">Déconnexion</a></li>
+                        <?php else: ?>
+                            <li><a href="pages/connexion.php">Connexion</a></li>
+                        <?php endif; ?>
                     </ul>
                 </li>
             </ul>
@@ -40,7 +45,7 @@
         <section id="accueil">
             <div class="accueil-conteneur">
                 <h2>Bienvenue au Cabinet Paramédical Occitania</h2>
-                <p>Installé en Haute-Garonne, notre cabinet pluridisciplinaire vous accueille dans un cadre moderne et connecté, dédié à votre santé et votre bien-être. Notre équipe de professionnels est à votre écoute pour vous accompagner dans votre parcours de soins.</p>
+                <p>Installé en Haute-Garonne, notre cabinet pluridisciplinaire vous accueille dans un cadre moderne et connecté, dédié à votre santé et votre bien-être.</p>
             </div>
             <ul>
                 <li><strong>Suivi médical</strong> assuré par un médecin généraliste expérimenté</li>
@@ -64,20 +69,19 @@
         <!-- Section technologie -->
         <section id="tech">
             <h2>Un cabinet connecté et sécurisé</h2>
-            <p>Notre structure repose sur un système d'information moderne, sécurisé et supervisé en temps réel. Chaque poste de travail est connecté, nos services numériques sont hébergés localement, et notre standard téléphonique VoIP permet une communication fluide avec les patients comme entre les membres de l'équipe.</p>
+            <p>Notre structure repose sur un système d'information moderne, sécurisé et supervisé en temps réel...</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif réalisé dans un cadre pédagogique | <a href="mentions-legales.html">Mentions légales</a></p>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="mentions-legales.html">Mentions légales</a></p>
     </footer>
 
     <script>
         // Gestion du menu mobile
-        document.getElementById('menu-toggle').addEventListener('click', function() {
+        document.getElementById('menu-toggle').addEventListener('click', function () {
             const nav = document.getElementById('main-nav');
             nav.classList.toggle('active');
-
             this.querySelectorAll('span').forEach(span =>
                 span.classList.toggle('active'));
         });
