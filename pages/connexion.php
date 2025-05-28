@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($login === $identifiant && $mdp === $mot_de_passe) {
         $_SESSION['connecte'] = true;
-        header("Location: index.php");
+        header("Location: ../index.php");
         exit();
     } else {
         $erreur = "Identifiants incorrects.";
