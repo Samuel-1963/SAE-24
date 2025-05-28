@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($login === $identifiant && $mdp === $mot_de_passe) {
         $_SESSION['connecte'] = true;
-        header("Location: ../index.php");
+        header("Location: site-prive.php");
         exit();
     } else {
         $erreur = "Identifiants incorrects.";
@@ -41,10 +41,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <ul>
                 <li><a href="equiperp.php">Notre équipe</a></li>
                 <li><a href="services.php">Nos services</a></li>
-                <li><a href="contact.php" class="active">Prendre rendez-vous</a></li>
+                <li><a href="contact.php">Prendre rendez-vous</a></li>
                 <li><a href="#">Espace professionnel</a>
                     <ul class="sous-menu">
+                    <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
+                        <li><a href="gantt.php">GANTT</a></li>
+                        <li><a href="livrables.php">Livrables</a></li>
+                        <li><a href="equipe.php">Équipe</a></li>
+                        <li><a href="site-prive.php">Accès interne</a></li>
+                        <li><a href="deconnexion.php">Déconnexion</a></li>
+                        <?php else: ?>
                         <li><a href="connexion.php">Connexion</a></li>
+                        <?php endif; ?>
                     </ul>
                 </li>
             </ul>
