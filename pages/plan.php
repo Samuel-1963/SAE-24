@@ -46,30 +46,24 @@
     </header>
 
     <main>
-        <section id="equipe">
-            <h2>Notre équipe projet</h2>
-            <p>Voici les membres ayant contribué activement à la mise en place du Cabinet Paramédical Occitania. Chacun a apporté ses compétences pour mener à bien ce projet collectif :</p>
+        <section>
+            <h2>Schéma de l'architecture réseau</h2>
+            <img src="../images/plan.png" alt="Schéma du réseau SAé24" style="max-width:100%; height:auto;">
 
-            <ul class="liste-equipe">
-                <li>
-                    <strong>Samuel DESCOURS</strong> - Chef de projet et développeur web : en charge de la coordination du groupe, de la réalisation et gestion du diagramme de Gantt, de la structuration du Trello et de la gestion des livrables. Il a également géré le développement du site en créant la page d'accueil, l'architecture HTML, la navigation principale ainsi que les pages nécessaire pour les livrables.
-                </li>
-                <li>
-                    <strong>Paul MONTAIGNAC</strong> - Responsable réseau : a co-conçu l'architecture réseau avec Lilian, établi un plan d'adressage IP, et contribué à la validation du diagramme de Gantt. Il a également participé à la configuration réseau sur les équipements physiques.
-                </li>
-                <li>
-                    <strong>Selwan BOURMEL</strong> - Administrateur systèmes : a pris en charge le déploiement et la configuration des machines virtuelles sur ESXi. Il a installé et paramétré des VM sous Ubuntu et Windows Server, avec la gestion des ressources, des ISO et des adresses IP statiques.
-                </li>
-                <li>
-                    <strong>Lilian DEPOISIER</strong> - Technicien réseau : a travaillé avec Paul sur l'adressage IP et la topologie réseau. Il s'est entraîné à la configuration des routeurs et switches, puis les a mis en œuvre en conditions réelles. Il a aussi assisté Selwan dans la mise en place du serveur.
-                </li>
-                <li>
-                    <strong>Joy-Floris GUERIN</strong> - Responsable outils collaboratifs et simulation réseau : a mis en place le suivi de projet via Trello, collaboré avec Samuel sur le diagramme de Gantt, et réalisé la simulation réseau sur Packet Tracer. Il a ensuite participé à la configuration réseau sur les équipements physiques.
-                </li>
+            <p>Ce schéma illustre l'architecture réseau mise en place dans le cadre de la SAé24, réalisée par notre groupe composé de Depoissier, Montaignac, Guerin, Descours et Bourmel. Le réseau repose sur une infrastructure centralisée autour d’un serveur ESXi hébergeant plusieurs machines virtuelles, permettant de gérer efficacement les services internes.</p>
+
+            <p>Voici les éléments clés représentés :</p>
+            <ul>
+                <li>Un <strong>serveur ESXi</strong> virtualise les systèmes nécessaires à l’infrastructure.</li>
+                <li>Un <strong>routeur</strong> connecté à Internet distribue la connexion au reste du réseau via un <strong>switch</strong> central.</li>
+                <li>Les différents <strong>postes de travail</strong> et <strong>softphones</strong> sont répartis dans les locaux selon les besoins : cabinet du dentiste, médecin généraliste, kinésithérapeutes, etc.</li>
+                <li>Un <strong>point d’accès Wi-Fi</strong> est installé dans la salle d’attente pour une connectivité sans fil.</li>
+                <li>Un système de téléphonie est également intégré, incluant des <strong>téléphones IP Aastra</strong> et un <strong>boîtier ATA</strong> pour la conversion VoIP vers des téléphones analogiques.</li>
             </ul>
+
+            <p>L’ensemble du réseau utilise une <strong>adresse IP de type 192.168.90.0/24</strong>, assurant une séparation claire des flux et une bonne organisation des services numériques au sein du cabinet paramédical.</p>
         </section>
     </main>
-
 
     <footer>
         <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>

@@ -386,6 +386,27 @@ section ul {
     list-style-type: disc;
 }
 
+.download-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 0.8em 1.5em;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.download-button:hover {
+    background-color: #005ea6;
+    text-decoration: none;
+}
 
 
 /* Footer */

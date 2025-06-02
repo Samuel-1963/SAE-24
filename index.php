@@ -32,7 +32,8 @@
                             <li><a href="pages/gantt.php">GANTT</a></li>
                             <li><a href="pages/livrables.php">Livrables</a></li>
                             <li><a href="pages/equipe.php">Équipe</a></li>
-                            <li><a href="pages/site-prive.php">Accès interne</a></li>
+                            <li><a href="pages/gantt.php">GANTT</a></li>
+                            <li><a href="pages/plan.php">Schéma de l'architecture réseau</a></li>
                             <li><a href="pages/deconnexion.php">Déconnexion</a></li>
                         <?php else: ?>
                             <li><a href="pages/connexion.php">Connexion</a></li>

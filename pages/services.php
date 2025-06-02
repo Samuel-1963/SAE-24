@@ -33,6 +33,8 @@
                         <li><a href="livrables.php">Livrables</a></li>
                         <li><a href="equipe.php">Équipe</a></li>
                         <li><a href="site-prive.php">Accès interne</a></li>
+                        <li><a href="gantt.php">GANTT</a></li>
+                        <li><a href="plan.php">Schéma de l'architecture réseau</a></li>
                         <li><a href="deconnexion.php">Déconnexion</a></li>
                         <?php else: ?>
                         <li><a href="connexion.php">Connexion</a></li>
