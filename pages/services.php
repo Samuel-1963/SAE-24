@@ -47,13 +47,13 @@
     <main>
         <section class="services-intro">
             <h2>Des soins de qualité, au cœur de Toulouse</h2>
-            <p>Le Cabinet Paramédical Occitania offre une approche globale de la santé, en combinant expertise médicale, technologies modernes et accompagnement humain. Découvrez nos pôles d’intervention, conçus pour répondre à tous vos besoins.</p>
+            <p>Le Cabinet Paramédical Occitania offre une approche globale de la santé, en combinant expertise médicale, technologies modernes et accompagnement humain. Découvrez nos pôles d'intervention, conçus pour répondre à tous vos besoins.</p>
         </section>
 
         <section class="services-liste">
             <article class="service">
                 <h3>🏥 Médecine Générale</h3>
-                <p>Le Dr Élodie Martin vous accueille pour un suivi médical complet, de la prévention à la prise en charge des pathologies aiguës et chroniques. Elle travaille main dans la main avec l’équipe paramédicale pour assurer une prise en charge coordonnée et bienveillante.</p>
+                <p>Le Dr Élodie Martin vous accueille pour un suivi médical complet, de la prévention à la prise en charge des pathologies aiguës et chroniques. Elle travaille main dans la main avec l'équipe paramédicale pour assurer une prise en charge coordonnée et bienveillante.</p>
                 <ul>
                     <li>Consultations adultes et enfants</li>
                     <li>Vaccinations, certificats médicaux</li>

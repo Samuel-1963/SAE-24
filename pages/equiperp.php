@@ -53,37 +53,37 @@
             <article class="membre">
                 <img src="../images/medecin.jpg" alt="Dr. Élodie Martin">
                 <h3>Dr. Élodie Martin - Médecin généraliste</h3>
-                <p>Forte de 15 ans d'expérience en médecine générale, le Dr Martin incarne l'écoute et la rigueur. Elle place le patient au cœur de sa pratique et propose un suivi personnalisé à chaque étape de la vie.</p>
+                <p>Forte de 15 ans d'expérience en médecine générale, le Dr Martin incarne l'écoute et la rigueur. Elle place le patient au cœur de sa pratique et propose un suivi personnalisé à chaque étape de la vie, que ce soit pour la prévention, le diagnostic ou le traitement de pathologies aiguës et chroniques. Elle accorde une grande importance à la relation de confiance avec ses patients.</p>
             </article>
 
             <article class="membre">
                 <img src="../images/lucas.jpg" alt="Lucas Dubois">
                 <h3>Lucas Dubois - Kinésithérapeute</h3>
-                <p>Spécialisé en rééducation post-opératoire et sportive, Lucas allie précision et pédagogie pour favoriser une récupération durable.</p>
+                <p>Spécialisé en rééducation post-opératoire et sportive, Lucas allie précision, pédagogie et écoute active pour accompagner efficacement ses patients dans leur rétablissement. Grâce à des techniques manuelles et des exercices adaptés, il favorise une récupération durable tout en rétablissant la mobilité et la confiance en soi. Il suit régulièrement des formations pour intégrer les dernières avancées du domaine.</p>
             </article>
 
             <article class="membre">
                 <img src="../images/sophia.jpg" alt="Sophia Renard">
                 <h3>Sophia Renard - Kinésithérapeute</h3>
-                <p>Avec une approche douce et attentive, Sophia est particulièrement investie dans la rééducation des personnes âgées et les soins pédiatriques.</p>
+                <p>Avec une approche douce, bienveillante et attentive, Sophia est particulièrement investie dans la rééducation des personnes âgées et les soins pédiatriques. Elle privilégie une relation de proximité avec ses patients et adapte ses méthodes en fonction des besoins spécifiques de chaque âge, en instaurant un climat de confiance et de sérénité favorable au soin.</p>
             </article>
 
             <article class="membre">
                 <img src="../images/julien.jpg" alt="Julien Lefèvre">
                 <h3>Julien Lefèvre - Kinésithérapeute</h3>
-                <p>Passionné par la biomécanique, Julien propose des soins ciblés et innovants adaptés à chaque profil, du sportif de haut niveau au sédentaire.</p>
+                <p>Passionné par la biomécanique et l’innovation en thérapie physique, Julien propose des soins ciblés et personnalisés. Il accompagne aussi bien les sportifs de haut niveau que les personnes sédentaires dans leur reprise d’activité, avec des techniques modernes et un suivi rigoureux, basé sur l’analyse du mouvement et l’optimisation des performances fonctionnelles.</p>
             </article>
 
             <article class="membre">
                 <img src="../images/dentiste.jpg" alt="Dr. Camille Moreau">
                 <h3>Dr. Camille Moreau - Chirurgien-dentiste</h3>
-                <p>Dotée d'un équipement de pointe, le Dr Moreau assure des soins dentaires de qualité dans une ambiance rassurante, alliant technique et humanité.</p>
+                <p>Dotée d'un équipement de pointe et d’une solide expérience, le Dr Moreau assure des soins dentaires de haute qualité dans une ambiance sereine et rassurante. Elle prend en charge aussi bien les soins courants que les interventions plus complexes, avec une approche centrée sur le confort, l’écoute du patient et une hygiène irréprochable.</p>
             </article>
 
             <article class="membre">
                 <img src="../images/claire.jpg" alt="Claire Petit">
                 <h3>Claire Petit - Secrétaire paramédicale</h3>
-                <p>Premier sourire que vous verrez en arrivant, Claire coordonne les rendez-vous et vous guide avec efficacité et bienveillance tout au long de votre parcours au cabinet.</p>
+                <p>Premier sourire que vous verrez en arrivant, Claire coordonne les rendez-vous et assure le lien entre les patients et les professionnels de santé. Grâce à sa réactivité, son sens de l'organisation et sa bienveillance, elle garantit un accueil chaleureux et un accompagnement fluide tout au long de votre parcours au sein du cabinet.</p>
             </article>
         </section>
     </main>
