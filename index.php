@@ -29,7 +29,6 @@
                 <li><a href="#">Espace professionnel</a>
                     <ul class="sous-menu">
                         <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
-                            <li><a href="pages/gantt.php">GANTT</a></li>
                             <li><a href="pages/livrables.php">Livrables</a></li>
                             <li><a href="pages/equipe.php">Équipe</a></li>
                             <li><a href="pages/gantt.php">GANTT</a></li>
