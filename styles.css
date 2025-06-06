@@ -1,3 +1,4 @@
+/* ===== RESET & GLOBAL STYLES ===== */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ body {
   color: #212121;
 }
 
-/* Header */
+/* ===== HEADER SECTION ===== */
 header {
   background-color: #1565c0;
   padding: 20px 0;
@@ -22,7 +23,7 @@ header {
 
 .titre-accueil {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /* Inherits color from parent */
 }
 
 header h1 {
@@ -34,9 +35,9 @@ header h1 {
   margin-top: 10px;
 }
 
-/* Menu burger */
+/* ===== BURGER MENU TOGGLE ===== */
 #menu-toggle {
-  display: none;
+  display: none; /* Hidden by default (visible in mobile) */
   flex-direction: column;
   justify-content: space-around;
   width: 30px;
@@ -47,7 +48,7 @@ header h1 {
   padding: 0;
   margin: 10px auto;
   position: relative;
-  z-index: 1000;
+  z-index: 1000; /* Ensures it stays on top */
 }
 
 #menu-toggle span {
@@ -58,7 +59,7 @@ header h1 {
   transition: all 0.3s ease;
 }
 
-/* Navigation */
+/* ===== MAIN NAVIGATION ===== */
 #main-nav {
   background-color: #f5f5f5;
   padding: 10px;
@@ -75,7 +76,7 @@ header h1 {
 
 #main-nav ul li {
   margin: 10px 15px;
-  position: relative;
+  position: relative; /* Needed for dropdown positioning */
 }
 
 #main-nav ul li a {
@@ -93,6 +94,7 @@ header h1 {
   border-radius: 3px;
 }
 
+/* Dropdown submenu */
 #main-nav ul li .sous-menu {
   display: none;
   position: absolute;
@@ -121,11 +123,11 @@ header h1 {
   border-radius: 3px;
 }
 
-/* Contenu principal */
+/* ===== MAIN CONTENT AREA ===== */
 main {
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center content */
 }
 
 section {
@@ -152,7 +154,7 @@ section ul {
   padding-left: 20px;
 }
 
-/* Connexion */
+/* ===== LOGIN CONTAINER ===== */
 .login-container {
   max-width: 400px;
   margin: 50px auto;
@@ -207,209 +209,249 @@ section ul {
   text-align: center;
 }
 
+/* ===== TEAM SECTION ===== */
 #equipe {
-    padding: 2rem;
-    background-color: #f9f9f9;
+  padding: 2rem;
+  background-color: #f9f9f9;
 }
 
 .liste-equipe {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .liste-equipe li {
-    padding: 1rem;
-    border-bottom: 1px solid #ccc;
-    font-size: 1.1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.1rem;
 }
 
-/* Formulaire de rendez-vous */
+/* Team grid layout */
+.equipe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.membre {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.chef {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(38, 9, 200, 0.1);
+}
+
+.membre img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.membre h3 {
+  color: #0066cc;
+  margin-bottom: 0.5rem;
+}
+
+.chef h3 {
+  color: #003b6f;
+  margin-bottom: 0.5rem;
+}
+
+.membre h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.membre p:last-of-type {
+  font-style: italic;
+  color: #555;
+}
+
+.chef h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #222;
+  font-weight: bold;
+}
+
+.chef p:last-of-type {
+  font-style: italic;
+  color: #444;
+}
+
+.equipe-intro {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #eef6fb;
+}
+
+/* ===== APPOINTMENT FORM ===== */
 #rdv {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 8px;
-    max-width: 600px;
-    margin: 0 auto;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 #rdv h2 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    color: #005f73;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #005f73;
 }
 
 #rdv p {
-    margin-bottom: 1.5rem;
-    color: #333;
+  margin-bottom: 1.5rem;
+  color: #333;
 }
 
 .formulaire-rdv label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-    color: #333;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
 }
 
 .formulaire-rdv input,
 .formulaire-rdv select,
 .formulaire-rdv textarea {
-    width: 100%;
-    padding: 0.7rem;
-    margin-bottom: 1.2rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1rem;
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
 }
 
 .formulaire-rdv textarea {
-    resize: vertical;
+  resize: vertical; /* Allows vertical resizing only */
 }
 
 .formulaire-rdv button {
-    background-color: #005f73;
-    color: #fff;
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #005f73;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .formulaire-rdv button:hover {
-    background-color: #0a9396;
+  background-color: #0a9396;
 }
 
+/* ===== CONFIRMATION SECTION ===== */
 .confirmation-section {
-    max-width: 700px;
-    margin: 2rem auto;
-    background: #f8f8f8;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #f8f8f8;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 .confirmation-details ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .confirmation-details li {
-    margin-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .message-box {
-    background-color: #e8f4ff;
-    padding: 1rem;
-    border-radius: 8px;
-    border-left: 4px solid #007BFF;
-    margin-top: 0.5rem;
+  background-color: #e8f4ff;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #007BFF; /* Accent bar */
+  margin-top: 0.5rem;
 }
 
 .btn-retour {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.6rem 1.2rem;
-    background-color: #007BFF;
-    color: #fff;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: background-color 0.3s;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
 .btn-retour:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
-.equipe {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-}
-
-.membre {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.membre img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-}
-
-.membre h3 {
-    color: #0066cc;
-    margin-bottom: 0.5rem;
-}
-
-.equipe-intro {
-    text-align: center;
-    padding: 2rem 1rem;
-    background-color: #eef6fb;
-}
-
+/* ===== SERVICES SECTION ===== */
 .services-intro {
-    background-color: #eef6fb;
-    text-align: center;
-    padding: 2rem;
+  background-color: #eef6fb;
+  text-align: center;
+  padding: 2rem;
 }
 
 .services-liste {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .service {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .service h3 {
-    color: #0066cc;
-    margin-bottom: 0.5rem;
+  color: #0066cc;
+  margin-bottom: 0.5rem;
 }
 
 .service ul {
-    padding-left: 1.2rem;
-    list-style-type: disc;
+  padding-left: 1.2rem;
+  list-style-type: disc;
 }
 
+/* ===== DOWNLOAD SECTION ===== */
 .download-section {
-    text-align: center;
-    margin: 2em 0;
+  text-align: center;
+  margin: 2em 0;
 }
 
 .download-button {
-    display: inline-block;
-    background-color: #0066cc;
-    color: white;
-    padding: 0.8em 1.5em;
-    border-radius: 10px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  background-color: #0066cc;
+  color: white;
+  padding: 0.8em 1.5em;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .download-button:hover {
-    background-color: #005ea6;
-    text-decoration: none;
+  background-color: #005ea6;
+  text-decoration: none;
 }
 
-
-/* Footer */
+/* ===== FOOTER ===== */
 footer {
   background-color: #1565c0;
   color: #ffffff;
@@ -419,20 +461,16 @@ footer {
   border-top: 3px solid #90caf9;
 }
 
-/* Responsive */
+/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
+  /* Mobile navigation */
   #menu-toggle {
     display: flex;
-    margin: 10px auto;
   }
 
   #main-nav {
     display: none;
     width: 100%;
-    background-color: #f5f5f5;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
     text-align: center;
   }
 
@@ -456,17 +494,13 @@ footer {
     padding: 10px 20px;
   }
 
-  .accueil-conteneur {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   header h1 {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 480px) {
+  /* Extra small devices */
   header h1 {
     font-size: 1.5rem;
   }
