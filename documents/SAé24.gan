@@ -44,7 +44,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" uid="c1558889bcd44a4d899f59ebd98ccbee" name="SAé 24" color="#00ffff" meeting="false" start="2025-05-22" duration="24" complete="12" expand="true">
-            <task id="1" uid="297f6594ae7043199e08bb7c9dd5005e" name="Constitution de l’équipe / rôles" color="#6666ff" meeting="false" start="2025-05-22" duration="1" complete="100" expand="true">
+            <task id="1" uid="297f6594ae7043199e08bb7c9dd5005e" name="Constitution de l'équipe / rôles" color="#6666ff" meeting="false" start="2025-05-22" duration="1" complete="100" expand="true">
                 <depend id="2" type="2" difference="0" hardness="Strong"/>
                 <depend id="3" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -61,7 +61,7 @@
                     <depend id="7" type="2" difference="0" hardness="Strong"/>
                     <depend id="8" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="8" uid="4abcf32dbe4745fcb05e898c45485418" name="Plan d’adressage" color="#00cc66" meeting="false" start="2025-05-28" duration="1" complete="100" expand="true">
+                <task id="8" uid="4abcf32dbe4745fcb05e898c45485418" name="Plan d'adressage" color="#00cc66" meeting="false" start="2025-05-28" duration="1" complete="100" expand="true">
                     <depend id="7" type="2" difference="0" hardness="Strong"/>
                     <depend id="25" type="2" difference="0" hardness="Strong"/>
                     <depend id="27" type="2" difference="0" hardness="Strong"/>

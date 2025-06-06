@@ -48,18 +48,18 @@
             <h2>Schéma de l'architecture réseau</h2>
             <img src="../images/plan.png" alt="Schéma du réseau SAé24" style="max-width:100%; height:auto;">
 
-            <p>Ce schéma illustre l'architecture réseau mise en place dans le cadre de la SAé24, réalisée par notre groupe composé de Depoissier, Montaignac, Guerin, Descours et Bourmel. Le réseau repose sur une infrastructure centralisée autour d’un serveur ESXi hébergeant plusieurs machines virtuelles, permettant de gérer efficacement les services internes.</p>
+            <p>Ce schéma illustre l'architecture réseau mise en place dans le cadre de la SAé24, réalisée par notre groupe composé de Depoissier, Montaignac, Guerin, Descours et Bourmel. Le réseau repose sur une infrastructure centralisée autour d'un serveur ESXi hébergeant plusieurs machines virtuelles, permettant de gérer efficacement les services internes.</p>
 
             <p>Voici les éléments clés représentés :</p>
             <ul>
-                <li>Un <strong>serveur ESXi</strong> virtualise les systèmes nécessaires à l’infrastructure.</li>
+                <li>Un <strong>serveur ESXi</strong> virtualise les systèmes nécessaires à l'infrastructure.</li>
                 <li>Un <strong>routeur</strong> connecté à Internet distribue la connexion au reste du réseau via un <strong>switch</strong> central.</li>
                 <li>Les différents <strong>postes de travail</strong> et <strong>softphones</strong> sont répartis dans les locaux selon les besoins : cabinet du dentiste, médecin généraliste, kinésithérapeutes, etc.</li>
-                <li>Un <strong>point d’accès Wi-Fi</strong> est installé dans la salle d’attente pour une connectivité sans fil.</li>
+                <li>Un <strong>point d'accès Wi-Fi</strong> est installé dans la salle d'attente pour une connectivité sans fil.</li>
                 <li>Un système de téléphonie est également intégré, incluant des <strong>téléphones IP Aastra</strong> et un <strong>boîtier ATA</strong> pour la conversion VoIP vers des téléphones analogiques.</li>
             </ul>
 
-            <p>L’ensemble du réseau utilise une <strong>adresse IP de type 192.168.90.0/24</strong>, assurant une séparation claire des flux et une bonne organisation des services numériques au sein du cabinet paramédical.</p>
+            <p>L'ensemble du réseau utilise une <strong>adresse IP de type 192.168.90.0/24</strong>, assurant une séparation claire des flux et une bonne organisation des services numériques au sein du cabinet paramédical.</p>
         </section>
     </main>
 

@@ -71,13 +71,13 @@
             <article class="membre">
                 <img src="../images/julien.jpg" alt="Julien Lefèvre">
                 <h3>Julien Lefèvre - Kinésithérapeute</h3>
-                <p>Passionné par la biomécanique et l’innovation en thérapie physique, Julien propose des soins ciblés et personnalisés. Il accompagne aussi bien les sportifs de haut niveau que les personnes sédentaires dans leur reprise d’activité, avec des techniques modernes et un suivi rigoureux, basé sur l’analyse du mouvement et l’optimisation des performances fonctionnelles.</p>
+                <p>Passionné par la biomécanique et l'innovation en thérapie physique, Julien propose des soins ciblés et personnalisés. Il accompagne aussi bien les sportifs de haut niveau que les personnes sédentaires dans leur reprise d'activité, avec des techniques modernes et un suivi rigoureux, basé sur l'analyse du mouvement et l'optimisation des performances fonctionnelles.</p>
             </article>
 
             <article class="membre">
                 <img src="../images/dentiste.jpg" alt="Dr. Camille Moreau">
                 <h3>Dr. Camille Moreau - Chirurgien-dentiste</h3>
-                <p>Dotée d'un équipement de pointe et d’une solide expérience, le Dr Moreau assure des soins dentaires de haute qualité dans une ambiance sereine et rassurante. Elle prend en charge aussi bien les soins courants que les interventions plus complexes, avec une approche centrée sur le confort, l’écoute du patient et une hygiène irréprochable.</p>
+                <p>Dotée d'un équipement de pointe et d'une solide expérience, le Dr Moreau assure des soins dentaires de haute qualité dans une ambiance sereine et rassurante. Elle prend en charge aussi bien les soins courants que les interventions plus complexes, avec une approche centrée sur le confort, l'écoute du patient et une hygiène irréprochable.</p>
             </article>
 
             <article class="membre">
