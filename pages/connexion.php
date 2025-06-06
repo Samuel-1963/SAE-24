@@ -2,7 +2,7 @@
 session_start();
 
 $identifiant = "admin";
-$mot_de_passe = "secret123"; // à sécuriser en vrai projet
+$mot_de_passe = "secret123";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $login = $_POST['login'] ?? '';
