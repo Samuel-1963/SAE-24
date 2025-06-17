@@ -33,13 +33,16 @@
                             <li><a href="gestion_projet/index.php">Gestion de Projet</a></li>
                             <li><a href="equipe/index.php">Équipe et Évaluations</a></li>
                             <li><a href="documentation/index.php">Documentation Technique</a></li>
-                            <li><a href="communication/index.php">Communication et Bilan</a></li>
-                            <li><a href="deconnexion/index.php">Déconnexion</a></li>
-                        <?php else: ?>
-                            <li><a href="connexion.php">Connexion</a></li>
+                            <li><a href="conclusion/index.php">Communication et Bilan</a></li>
                         <?php endif; ?>
                     </ul>
                 </li>
+
+                <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
+                    <li><a href="deconnexion.php">Déconnexion</a></li>
+                <?php else: ?>
+                    <li><a href="connexion.php">Connexion</a></li>
+                <?php endif; ?>
             </ul>
         </nav>
     </header>
@@ -145,7 +148,7 @@
                 <div class="page-desc">Vue schématique de l'architecture réseau utilisée.</div>
             </li>
             <li>
-                <a href="documentation/num_telephonique.php">Plan de numérotation</a>
+                <a href="documentation/telephonique.php">Plan de numérotation</a>
                 <div class="page-desc">Plan de numérotation pour les postes téléphoniques simulés.</div>
             </li>
             <li>

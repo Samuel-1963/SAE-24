@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub - Cabinet Paramédical Occitania</title>
+    <title>Téléphonie - Cabinet Paramédical Occitania</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../images/icon.ico" type="image/x-icon">
 </head>
@@ -49,34 +49,63 @@
 
     <main>
         <section class="contenu">
-            <h1>Développement collaboratif via GitHub</h1>
+            <h1>Téléphonie - Cabinet Paramédical Occitania</h1>
 
-            <p>
-                Dans le cadre du projet, nous avons utilisé <strong>GitHub</strong> comme plateforme de versionnement et de collaboration.
-                Elle nous a permis de gérer efficacement le code source, suivre les évolutions, corriger les erreurs et travailler à plusieurs sur le même projet.
-            </p>
+            <p>Cette page récapitule les dispositifs téléphoniques du cabinet et présente des preuves de fonctionnement grâce au serveur Asterisk et à l'analyse réseau via Wireshark.</p>
 
-            <h2>Accéder au dépôt GitHub</h2>
-            <p>
-                Vous pouvez consulter le dépôt du projet en cliquant sur le lien ci-dessous :
-            </p>
-            <p class="lien-github">
-                🔗 <a href="https://github.com/Samuel-1963/SAE-24" target="_blank" rel="noopener">Voir le dépôt GitHub du projet</a>
-            </p>
+            <h2>📋 Tableau des téléphones configurés</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Type d'appareil</th>
+                        <th>Adresse IP</th>
+                        <th>Affectation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Téléphone analogique</td>
+                        <td>192.168.90.91</td>
+                        <td>Poste secrétaire (n°901)</td>
+                    </tr>
+                    <tr>
+                        <td>Téléphone IP Aastra 320w</td>
+                        <td>192.168.90.92</td>
+                        <td>Poste dentiste (n°902)</td>
+                    </tr>
+                    <tr>
+                        <td>Softphone secrétaire</td>
+                        <td>192.168.90.26</td>
+                        <td>Poste médecin généraliste (n°900)<br><em>(utilise l'IP du PC de la secrétaire)</em></td>
+                    </tr>
+                    <tr>
+                        <td>Téléphone IP (FON-175)</td>
+                        <td>192.168.90.94</td>
+                        <td>Poste kiné (Hors PoC n°904)</td>
+                    </tr>
+                    <tr>
+                        <td>Téléphone IP (analogique)</td>
+                        <td>192.168.90.95</td>
+                        <td>Poste kiné (Hors PoC n°905)</td>
+                    </tr>
+                    <tr>
+                        <td>Téléphone IP (Aastra)</td>
+                        <td>192.168.90.49</td>
+                        <td>Poste kiné (Hors PoC n°906)</td>
+                    </tr>
+                </tbody>
+            </table>
 
-            <h2>Fonctionnalités utilisées</h2>
-            <ul>
-                <li>Pull requests pour valider les changements</li>
-                <li>Issues pour suivre les tâches et les bugs</li>
-                <li>README.md pour donner les informations importante sur le projet</li>
-            </ul>
+            <h2>Fonctionnement du serveur Asterisk</h2>
+            <p>Voici une capture d'écran du serveur Asterisk affichant l'enregistrement des téléphones ainsi que le journal des appels :</p>
+            <img src="../../images/asterisk_capture.png" alt="Capture d'écran du serveur Asterisk" class="screenshot">
 
-            <h2>Bonnes pratiques appliquées</h2>
-            <p>
-                Nous avons mis en place des règles de nommage, des revues de code systématiques et un processus d'intégration continue pour assurer la qualité du code.
-            </p>
+            <h2>Analyse réseau avec Wireshark</h2>
+            <p>Une capture Wireshark prouve le bon déroulement de la communication SIP entre les téléphones :</p>
+            <img src="../../images/wireshark_capture.png" alt="Capture Wireshark des paquets SIP" class="screenshot">
         </section>
     </main>
+
 
     <footer>
         <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
@@ -96,4 +125,4 @@
         });
     </script>
 </body>
-</html>
+</html>    

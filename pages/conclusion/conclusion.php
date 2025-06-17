@@ -34,12 +34,15 @@
                             <li><a href="../equipe/index.php">Équipe et Évaluations</a></li>
                             <li><a href="../documentation/index.php">Documentation Technique</a></li>
                             <li><a href="../conclusion/index.php">Communication et Bilan</a></li>
-                            <li><a href="../deconnexion/index.php">Déconnexion</a></li>
-                        <?php else: ?>
-                            <li><a href="../connexion.php">Connexion</a></li>
                         <?php endif; ?>
                     </ul>
                 </li>
+
+                <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
+                    <li><a href="../deconnexion.php">Déconnexion</a></li>
+                <?php else: ?>
+                    <li><a href="../connexion.php">Connexion</a></li>
+                <?php endif; ?>
             </ul>
         </nav>
     </header>

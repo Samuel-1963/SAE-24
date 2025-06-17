@@ -33,13 +33,16 @@
                             <li><a href="pages/gestion_projet/index.php">Gestion de Projet</a></li>
                             <li><a href="pages/equipe/index.php">Équipe et Évaluations</a></li>
                             <li><a href="pages/documentation/index.php">Documentation Technique</a></li>
-                            <li><a href="pages/communication/index.php">Communication et Bilan</a></li>
-                            <li><a href="pages/deconnexion/index.php">Déconnexion</a></li>
-                        <?php else: ?>
-                            <li><a href="pages/connexion.php">Connexion</a></li>
+                            <li><a href="pages/conclusion/index.php">Communication et Bilan</a></li>
                         <?php endif; ?>
                     </ul>
                 </li>
+
+                <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
+                    <li><a href="pages/deconnexion.php">Déconnexion</a></li>
+                <?php else: ?>
+                    <li><a href="pages/connexion.php">Connexion</a></li>
+                <?php endif; ?>
             </ul>
         </nav>
     </header>
