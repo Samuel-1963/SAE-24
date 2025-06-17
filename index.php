@@ -29,7 +29,7 @@
                 <li><a href="#">Espace professionnel</a>
                     <ul class="sous-menu">
                         <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
-                            <li><a href="pages/arborescence/index.php">Arborescence du site</a></li>
+                            <li><a href="pages/arborescence.php">Arborescence du site</a></li>
                             <li><a href="pages/gestion_projet/index.php">Gestion de Projet</a></li>
                             <li><a href="pages/equipe/index.php">Équipe et Évaluations</a></li>
                             <li><a href="pages/documentation/index.php">Documentation Technique</a></li>

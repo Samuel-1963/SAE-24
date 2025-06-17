@@ -1,25 +1,42 @@
-<?php session_start(); ?>
+<?php
+session_start();
+
+$identifiant = "admin";
+$mot_de_passe = "secret123";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $login = $_POST['login'] ?? '';
+    $mdp = $_POST['mdp'] ?? '';
+
+    if ($login === $identifiant && $mdp === $mot_de_passe) {
+        $_SESSION['connecte'] = true;
+        header("Location: ../index.php");
+        exit();
+    } else {
+        $erreur = "Identifiants incorrects.";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prendre rendez-vous - Cabinet Paramédical Occitania</title>
+    <title>Connexion - Cabinet Paramédical Occitania</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../images/icon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        
-        <a href="../index.php" class="titre-accueil">
-            <h1>Cabinet Paramédical Occitania</h1>
-        </a>
-        
         <button id="menu-toggle" aria-label="Ouvrir le menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
+        <a href="../index.php" class="titre-accueil">
+            <h1>Cabinet Paramédical Occitania</h1>
+        </a>
 
         <nav id="main-nav">
             <ul>
@@ -48,40 +65,21 @@
     </header>
 
     <main>
-        <section id="rdv">
-            <h2>Prendre rendez-vous</h2>
-            <p>Merci de remplir le formulaire ci-dessous pour effectuer une demande de rendez-vous. Un membre de notre équipe vous recontactera rapidement pour confirmation.</p>
+        <div class="login-container">
+            <h2>Connexion à l'espace professionnel</h2>
 
-            <form action="traitement-rdv.php" method="POST" class="formulaire-rdv">
-                <label for="prenom">Prénom :</label>
-                <input type="text" id="prenom" name="prenom" required>
+            <?php if (isset($erreur)) echo "<p class='error-message'>$erreur</p>"; ?>
 
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required>
+            <form method="post">
+                <label for="login">Identifiant :</label>
+                <input type="text" name="login" id="login" required>
 
-                <label for="nom">Mail :</label>
-                <input type="email" id="email" name="Email" required>
+                <label for="mdp">Mot de passe :</label>
+                <input type="password" name="mdp" id="mdp" required>
 
-                <label for="date">Date souhaitée :</label>
-                <input type="date" id="date" name="date" required>
-
-                <label for="heure">Heure souhaitée :</label>
-                <input type="time" id="heure" name="heure" required>
-
-                <label for="type">Type de consultation :</label>
-                <select id="type" name="type" required>
-                    <option value="">-- Choisir un type --</option>
-                    <option value="medecin">Consultation médecin</option>
-                    <option value="kine">Séance de kinésithérapie</option>
-                    <option value="dentaire">Consultation dentaire</option>
-                </select>
-
-                <label for="message">Message complémentaire :</label>
-                <textarea id="message" name="message" rows="5" placeholder="Décrivez vos symptômes ou précisez vos disponibilités..."></textarea>
-
-                <button type="submit">Envoyer la demande</button>
+                <button type="submit">Se connecter</button>
             </form>
-        </section>
+        </div>
     </main>
 
     <footer>
