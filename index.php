@@ -82,7 +82,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="mentions-legales.php">Mentions légales</a></p>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="pages/mentions-legales.php">Mentions légales</a></p>
     </footer>
 
     <script>

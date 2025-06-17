@@ -85,123 +85,153 @@
         </div>
 
         <div class="category">
+            <button class="toggle-button">English Public Pages</button>
+            <ul class="arbo-list">
+                <li>
+                    <a href="en/index.php">Homepage</a>
+                    <div class="page-desc">Main homepage of the website, accessible to everyone.</div>
+                </li>
+                <li>
+                    <a href="en/equiperp.php">Our Team</a>
+                    <div class="page-desc">Presentation of the healthcare professionals at our center.</div>
+                </li>
+                <li>
+                    <a href="en/services.php">Our Services</a>
+                    <div class="page-desc">List of services and areas of expertise we offer.</div>
+                </li>
+                <li>
+                    <a href="en/contact.php">Book an Appointment</a>
+                    <div class="page-desc">Contact form for booking appointments or asking questions.</div>
+                </li>
+                <li>
+                    <a href="en/traitement-rdv.php">Appointment Processing</a>
+                    <div class="page-desc">Page handling the appointment form submitted by a user.</div>
+                </li>
+                <li>
+                    <a href="en/mention.php">Legal Notice</a>
+                    <div class="page-desc">Legal information about the website (author, context...).</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="category">
             <button class="toggle-button">Gestion de Projet</button>
             <ul class="arbo-list">
-            <li>
-                <a href="gestion_projet/index.php">Accueil</a>
-                <div class="page-desc">Page d'accueil générale de la section Gestion de Projet.</div>
-            </li>
-            <li>
-                <a href="gestion_projet/gantt.php">Diagramme de Gantt</a>
-                <div class="page-desc">Affiche la planification temporelle du projet.</div>
-            </li>
-            <li>
-                <a href="gestion_projet/outils.php">Outils collaboratifs</a>
-                <div class="page-desc">Liste des outils utilisés pour la collaboration (Trello, Drive).</div>
-            </li>
-            <li>
-                <a href="gestion_projet/github.php">Dépôt GitHub</a>
-                <div class="page-desc">Lien vers le dépôt GitHub contenant le code source du projet.</div>
-            </li>
-            <li>
-                <a href="gestion_projet/problemes.php">Problèmes & solutions</a>
-                <div class="page-desc">Historique des blocages rencontrés et des solutions mises en place.</div>
-            </li>
+                <li>
+                    <a href="gestion_projet/index.php">Accueil</a>
+                    <div class="page-desc">Page d'accueil générale de la section Gestion de Projet.</div>
+                </li>
+                <li>
+                    <a href="gestion_projet/gantt.php">Diagramme de Gantt</a>
+                    <div class="page-desc">Affiche la planification temporelle du projet.</div>
+                </li>
+                <li>
+                    <a href="gestion_projet/outils.php">Outils collaboratifs</a>
+                    <div class="page-desc">Liste des outils utilisés pour la collaboration (Trello, Drive).</div>
+                </li>
+                <li>
+                    <a href="gestion_projet/github.php">Dépôt GitHub</a>
+                    <div class="page-desc">Lien vers le dépôt GitHub contenant le code source du projet.</div>
+                </li>
+                <li>
+                    <a href="gestion_projet/problemes.php">Problèmes & solutions</a>
+                    <div class="page-desc">Historique des blocages rencontrés et des solutions mises en place.</div>
+                </li>
             </ul>
         </div>
 
         <div class="category">
             <button class="toggle-button">Équipe et Évaluations</button>
             <ul class="arbo-list">
-            <li>
-                <a href="equipe/index.php">Accueil</a>
-                <div class="page-desc">Présentation générale des membres de l'équipe.</div>
-            </li>
-            <li>
-                <a href="equipe/syntheses.php">Synthèses personnelles</a>
-                <div class="page-desc">Bilans individuels des membres de l'équipe.</div>
-            </li>
-            <li>
-                <a href="equipe/evaluations.php">Évaluations croisées</a>
-                <div class="page-desc">Auto-évaluations et évaluations entre les membres.</div>
-            </li>
+                <li>
+                    <a href="equipe/index.php">Accueil</a>
+                    <div class="page-desc">Présentation générale des membres de l'équipe.</div>
+                </li>
+                <li>
+                    <a href="equipe/syntheses.php">Synthèses personnelles</a>
+                    <div class="page-desc">Bilans individuels des membres de l'équipe.</div>
+                </li>
+                <li>
+                    <a href="equipe/evaluations.php">Évaluations croisées</a>
+                    <div class="page-desc">Auto-évaluations et évaluations entre les membres.</div>
+                </li>
             </ul>
         </div>
 
         <div class="category">
             <button class="toggle-button">Documentation Technique</button>
             <ul class="arbo-list">
-            <li>
-                <a href="documentation/index.php">Accueil</a>
-                <div class="page-desc">Introduction à la documentation technique du projet.</div>
-            </li>
-            <li>
-                <a href="documentation/presentation_sae.php">Présentation SAé</a>
-                <div class="page-desc">Résumé du projet tel que demandé dans la SAé.</div>
-            </li>
-            <li>
-                <a href="documentation/mode_emploi.php">Mode d'emploi</a>
-                <div class="page-desc">Instructions pour utiliser ou tester le système.</div>
-            </li>
-            <li>
-                <a href="documentation/plan.php">Schéma architecture réseau</a>
-                <div class="page-desc">Vue schématique de l'architecture réseau utilisée.</div>
-            </li>
-            <li>
-                <a href="documentation/telephonique.php">Plan de numérotation</a>
-                <div class="page-desc">Plan de numérotation pour les postes téléphoniques simulés.</div>
-            </li>
-            <li>
-                <a href="documentation/logins.php">Logins et mots de passe</a>
-                <div class="page-desc">Identifiants utilisés pour la démonstration du système.</div>
-            </li>
-            <li>
-                <a href="documentation/simulation.php">Simulation Packet Tracer</a>
-                <div class="page-desc">Lien ou explication d'une simulation réseau réalisée avec Cisco Packet Tracer.</div>
-            </li>
-            <li>
-                <a href="documentation/tests.php">Résultats des tests</a>
-                <div class="page-desc">Tests fonctionnels ou techniques effectués sur le projet.</div>
-            </li>
+                <li>
+                    <a href="documentation/index.php">Accueil</a>
+                    <div class="page-desc">Introduction à la documentation technique du projet.</div>
+                </li>
+                <li>
+                    <a href="documentation/presentation_sae.php">Présentation SAé</a>
+                    <div class="page-desc">Résumé du projet tel que demandé dans la SAé.</div>
+                </li>
+                <li>
+                    <a href="documentation/mode_emploi.php">Mode d'emploi</a>
+                    <div class="page-desc">Instructions pour utiliser ou tester le système.</div>
+                </li>
+                <li>
+                    <a href="documentation/plan.php">Schéma architecture réseau</a>
+                    <div class="page-desc">Vue schématique de l'architecture réseau utilisée.</div>
+                </li>
+                <li>
+                    <a href="documentation/telephonique.php">Plan de numérotation</a>
+                    <div class="page-desc">Plan de numérotation pour les postes téléphoniques simulés.</div>
+                </li>
+                <li>
+                    <a href="documentation/logins.php">Logins et mots de passe</a>
+                    <div class="page-desc">Identifiants utilisés pour la démonstration du système.</div>
+                </li>
+                <li>
+                    <a href="documentation/simulation.php">Simulation Packet Tracer</a>
+                    <div class="page-desc">Lien ou explication d'une simulation réseau réalisée avec Cisco Packet Tracer.</div>
+                </li>
+                <li>
+                    <a href="documentation/tests.php">Résultats des tests</a>
+                    <div class="page-desc">Tests fonctionnels ou techniques effectués sur le projet.</div>
+                </li>
             </ul>
         </div>
 
         <div class="category">
             <button class="toggle-button">Communication et Bilan</button>
             <ul class="arbo-list">
-            <li>
-                <a href="communication/index.php">Accueil</a>
-                <div class="page-desc">Introduction à la partie communication et retour d'expérience.</div>
-            </li>
-            <li>
-                <a href="communication/video.php">Vidéo de présentation</a>
-                <div class="page-desc">Lien vers la vidéo explicative ou de promotion du projet.</div>
-            </li>
-            <li>
-                <a href="communication/conclusion.php">Conclusion globale</a>
-                <div class="page-desc">Bilan final du projet et perspectives futures.</div>
-            </li>
+                <li>
+                    <a href="communication/index.php">Accueil</a>
+                    <div class="page-desc">Introduction à la partie communication et retour d'expérience.</div>
+                </li>
+                <li>
+                    <a href="communication/video.php">Vidéo de présentation</a>
+                    <div class="page-desc">Lien vers la vidéo explicative ou de promotion du projet.</div>
+                </li>
+                <li>
+                    <a href="communication/conclusion.php">Conclusion globale</a>
+                    <div class="page-desc">Bilan final du projet et perspectives futures.</div>
+                </li>
             </ul>
         </div>
 
         <div class="category">
             <button class="toggle-button">Connexion / Déconnexion</button>
             <ul class="arbo-list">
-            <li>
-                <a href="connexion.php">Connexion</a>
-                <div class="page-desc">Permet d'accéder à l'espace professionnel avec un identifiant.</div>
-            </li>
-            <li>
-                <a href="deconnexion.php">Déconnexion</a>
-                <div class="page-desc">Met fin à la session utilisateur et redirige vers l'accueil.</div>
-            </li>
+                <li>
+                    <a href="connexion.php">Connexion</a>
+                    <div class="page-desc">Permet d'accéder à l'espace professionnel avec un identifiant.</div>
+                </li>
+                <li>
+                    <a href="deconnexion.php">Déconnexion</a>
+                    <div class="page-desc">Met fin à la session utilisateur et redirige vers l'accueil.</div>
+                </li>
             </ul>
         </div>
     </main>
 
 
     <footer>
-        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="mentions-legales.php">Mentions légales</a></p>
     </footer>
 
     <script>

@@ -47,3 +47,70 @@
         </nav>
         <a href="en/mentions-legales.php" class="btn-langue">🇬🇧 English</a>
     </header>
+
+    <main class="mentions-legales">
+        <section class="intro">
+            <h2>Mentions légales</h2>
+            <p>
+                Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique,
+                voici les informations relatives à l'éditeur et à l'hébergeur de ce site.
+            </p>
+        </section>
+
+        <section>
+            <h3>Éditeur du site</h3>
+            <p><strong>Nom du responsable :</strong> Samuel DESCOURS</p>
+            <p><strong>Téléphone :</strong> 06 95 60 70 11</p>
+            <p><strong>Email :</strong> <a href="mailto:samuel.descours.iut@gmail.com">samuel.descours.iut@gmail.com</a></p>
+        </section>
+
+        <section>
+            <h3>Hébergement</h3>
+            <p>
+                Ce site est hébergé en local à l'aide du serveur <strong>XAMPP</strong>
+                dans le cadre d'un projet pédagogique.
+            </p>
+            <p>Ce site n'est pas accessible publiquement sur internet.</p>
+        </section>
+
+        <section>
+            <h3>Utilisation des données</h3>
+            <p>
+                Ce site ne collecte aucune donnée personnelle.
+                Les formulaires présents sont utilisés exclusivement dans le cadre d'un projet fictif à visée pédagogique.
+            </p>
+        </section>
+
+        <section>
+            <h3>Crédits</h3>
+            <p>
+                Site réalisé par Samuel DESCOURS, Lilian DEPOISIER, Paul MONTAIGNAC,
+                Joy-Floris GUERIN et Selwan BOURMEL.
+            </p>
+            <p>
+                Réalisé dans le cadre de la SAÉ 21, sous la supervision de
+                M. Gaël Mansalier (<a href="mailto:gael.mansalier@univ-tlse2.fr">gael.mansalier@univ-tlse2.fr</a>).
+            </p>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="mentions-legales.php">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        // Gestion du menu mobile
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+
+            this.querySelectorAll('span').forEach(span =>
+                span.classList.toggle('active'));
+
+            const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    </script>
+</body>
+</html>

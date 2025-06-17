@@ -51,7 +51,7 @@
         <section class="intro">
             <h2>Gestion de projet</h2>
             <p>
-                La gestion de projet a été essentielle pour assurer la réussite de notre SAÉ24. Dès le départ, nous avons défini les rôles de chacun, structuré notre travail autour d’un planning prévisionnel, et mis en place des outils collaboratifs pour le suivi des tâches.
+                La gestion de projet a été essentielle pour assurer la réussite de notre SAÉ24. Dès le départ, nous avons défini les rôles de chacun, structuré notre travail autour d'un planning prévisionnel, et mis en place des outils collaboratifs pour le suivi des tâches.
             </p>
             <p>
                 Cette rubrique vous permet d'explorer l'ensemble de notre organisation, du diagramme de Gantt aux outils de communication et versionnage, en passant par les problèmes rencontrés pendant la réalisation.

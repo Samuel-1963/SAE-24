@@ -739,6 +739,25 @@ section ul {
   text-decoration: underline;
 }
 
+/* ===== MENTIONS LEGALES PAGE STYLES ===== */
+.mentions-legales section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-left: 4px solid #0066cc;
+    border-radius: 6px;
+}
+
+.mentions-legales h3 {
+    margin-top: 0;
+    color: #0066cc;
+}
+
+.mentions-legales p {
+    margin: 0.5em 0;
+    color: #333;
+}
+
 
 /* ===== FOOTER SECTION ===== */
 footer {

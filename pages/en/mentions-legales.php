@@ -47,3 +47,69 @@
         </nav>
         <a href="en/mentions-legales.php" class="btn-langue">🇬🇧 English</a>
     </header>
+
+    <main class="mentions-legales">
+        <section class="intro">
+            <h2>Legal Notice</h2>
+            <p>
+                In accordance with Law No. 2004-575 of June 21, 2004 on confidence in the digital economy,
+                here is the information regarding the publisher and host of this website.
+            </p>
+        </section>
+
+        <section>
+            <h3>Website Publisher</h3>
+            <p><strong>Responsible person:</strong> Samuel DESCOURS</p>
+            <p><strong>Phone:</strong> +33 6 95 60 70 11</p>
+            <p><strong>Email:</strong> <a href="mailto:samuel.descours.iut@gmail.com">samuel.descours.iut@gmail.com</a></p>
+        </section>
+
+        <section>
+            <h3>Hosting</h3>
+            <p>
+                This website is hosted locally using the <strong>XAMPP</strong> server
+                as part of an educational project.
+            </p>
+            <p>This site is not publicly accessible on the internet.</p>
+        </section>
+
+        <section>
+            <h3>Data Usage</h3>
+            <p>
+                This website does not collect any personal data.
+                The forms present are used exclusively for a fictional educational project.
+            </p>
+        </section>
+
+        <section>
+            <h3>Credits</h3>
+            <p>
+                Website created by Samuel DESCOURS, Lilian DEPOISIER, Paul MONTAIGNAC,
+                Joy-Floris GUERIN and Selwan BOURMEL.
+            </p>
+            <p>
+                Created as part of SAÉ 21, under the supervision of
+                Mr. Gaël Mansalier (<a href="mailto:gael.mansalier@univ-tlse2.fr">gael.mansalier@univ-tlse2.fr</a>).
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="mentions-legales.php">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        // Gestion du menu mobile
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+
+            this.querySelectorAll('span').forEach(span =>
+                span.classList.toggle('active'));
+
+            const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    </script>
+</body>
+</html>

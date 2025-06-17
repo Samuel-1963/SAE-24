@@ -46,3 +46,49 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="intro">
+            <h2>Communication et Bilan</h2>
+            <p>
+                La communication autour du projet et le bilan final sont des éléments clés pour valoriser le travail accompli, rendre compte des résultats obtenus, et prendre du recul sur l’ensemble de la SAÉ.
+            </p>
+            <p>
+                Cette section regroupe notre vidéo de présentation ainsi qu’une conclusion globale, offrant une synthèse des apprentissages, des réussites et des pistes d’amélioration pour l’avenir.
+            </p>
+        </section>
+
+        <section>
+            <h3>Navigation dans la communication</h3>
+            <ul class="page-list">
+                <li>
+                    <a href="video.php">🎥 Vidéo de présentation</a><br>
+                    Présentation synthétique du projet, de ses objectifs, de sa mise en œuvre et des résultats obtenus.
+                </li>
+                <li>
+                    <a href="conclusion.php">🧾 Conclusion globale</a><br>
+                    Bilan final du projet : apports pédagogiques, difficultés rencontrées, réussites et perspectives.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        // Gestion du menu mobile
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+
+            this.querySelectorAll('span').forEach(span =>
+                span.classList.toggle('active'));
+
+            const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    </script>
+</body>
+</html>

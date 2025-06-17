@@ -50,11 +50,25 @@
     <main>
         <section class="intro">
             <h2>Équipe & Évaluations</h2>
-            <p>Cette catégorie présente les membres du groupe projet, leur rôle, leur bilan personnel, ainsi que les éléments d'évaluation du travail mené.</p>
-            <p>Sur cette page, découvrez la composition de l'équipe projet ainsi que les retours d'expérience de chacun. Vous pouvez également consulter :</p>
-            <ul class="liens-sous-pages">
-                <li><a href="evaluations.php">📋 Grilles d'évaluation</a></li>
-                <li><a href="syntheses.php">📝 Synthèses individuelles</a></li>
+            <p>
+                Cette section met en lumière les membres du groupe ayant travaillé sur le projet, leur implication, ainsi que les retours d'expérience individuels. Elle permet également d'accéder aux documents utilisés pour l'auto-évaluation.
+            </p>
+            <p>
+                Vous trouverez ici un aperçu des rôles de chacun, les synthèses personnelles de chaque membre, ainsi que les grilles d'évaluation utilisées par les encadrants.
+            </p>
+        </section>
+
+        <section>
+            <h3>Navigation dans l'espace Équipe et Évaluations</h3>
+            <ul class="page-list">
+                <li>
+                    <a href="evaluations.php">📋 Grilles d'évaluation</a><br>
+                    Critères et barèmes ayant servi à l'évaluation du projet et du travail en équipe.
+                </li>
+                <li>
+                    <a href="syntheses.php">📝 Synthèses individuelles</a><br>
+                    Témoignages et bilans personnels des membres du groupe projet.
+                </li>
             </ul>
         </section>
         <section class="contenu">
