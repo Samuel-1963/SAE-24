@@ -80,6 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <?php endif; ?>
             </ul>
         </nav>
+        <a href="en/traitement-rdv.php" class="btn-langue">🇬🇧 English</a>
     </header>
 
     <main>

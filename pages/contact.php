@@ -45,43 +45,45 @@
                 <?php endif; ?>
             </ul>
         </nav>
+        <a href="en/contact.php" class="btn-langue">🇬🇧 English</a>
     </header>
 
     <main>
-    <section id="rdv">
-        <h2>Prendre rendez-vous</h2>
-        <p>Merci de remplir le formulaire ci-dessous pour effectuer une demande de rendez-vous. Un membre de notre équipe vous recontactera rapidement pour confirmation.</p>
+        <section class="intro">
+            <h2>Prendre rendez-vous</h2>
+            <p>Merci de remplir le formulaire ci-dessous pour effectuer une demande de rendez-vous. Un membre de notre équipe vous recontactera rapidement pour confirmation.</p>
+        </section>
+        <section id="rdv">
+            <form action="traitement-rdv.php" method="POST" class="formulaire-rdv">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
 
-        <form action="traitement-rdv.php" method="POST" class="formulaire-rdv">
-        <label for="prenom">Prénom :</label>
-        <input type="text" id="prenom" name="prenom" required>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
 
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" required>
+            <label for="email">Mail :</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="email">Mail :</label>
-        <input type="email" id="email" name="email" required>
+            <label for="date">Date souhaitée :</label>
+            <input type="date" id="date" name="date" required>
 
-        <label for="date">Date souhaitée :</label>
-        <input type="date" id="date" name="date" required>
+            <label for="heure">Heure souhaitée :</label>
+            <input type="time" id="heure" name="heure" required>
 
-        <label for="heure">Heure souhaitée :</label>
-        <input type="time" id="heure" name="heure" required>
+            <label for="type">Type de consultation :</label>
+            <select id="type" name="type" required>
+                <option value="">-- Choisir un type --</option>
+                <option value="medecin">Consultation médecin</option>
+                <option value="kine">Séance de kinésithérapie</option>
+                <option value="dentaire">Consultation dentaire</option>
+            </select>
 
-        <label for="type">Type de consultation :</label>
-        <select id="type" name="type" required>
-            <option value="">-- Choisir un type --</option>
-            <option value="medecin">Consultation médecin</option>
-            <option value="kine">Séance de kinésithérapie</option>
-            <option value="dentaire">Consultation dentaire</option>
-        </select>
+            <label for="message">Message complémentaire :</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez vos symptômes ou précisez vos disponibilités..."></textarea>
 
-        <label for="message">Message complémentaire :</label>
-        <textarea id="message" name="message" rows="5" placeholder="Décrivez vos symptômes ou précisez vos disponibilités..."></textarea>
-
-        <button type="submit">Envoyer la demande</button>
-        </form>
-    </section>
+            <button type="submit">Envoyer la demande</button>
+            </form>
+        </section>
     </main>
 
 

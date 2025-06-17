@@ -45,6 +45,7 @@
                 <?php endif; ?>
             </ul>
         </nav>
+        <a href="pages/en/traitement-rdv.php" class="btn-langue">🇬🇧 English</a>
     </header>
 
     <main>

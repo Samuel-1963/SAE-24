@@ -45,6 +45,7 @@
                 <?php endif; ?>
             </ul>
         </nav>
+        <a href="en/equiperp.php" class="btn-langue">🇬🇧 English</a>
     </header>
 
 <main>

@@ -79,7 +79,7 @@
                 </li>
                 <li>
                     <a href="mention.php">Mentions légales</a>
-                    <div class="page-desc">Informations légales relatives au site (auteur, hébergeur...).</div>
+                    <div class="page-desc">Informations légales relatives au site (auteur, contexte...).</div>
                 </li>
             </ul>
         </div>

@@ -59,7 +59,7 @@
         </div>
 
         <div class="image-gantt">
-            <img src="../images/gantt_capture.png" alt="Diagramme de Gantt du projet SAé24">
+            <img src="../../images/gantt_capture.png" alt="Diagramme de Gantt du projet SAé24">
         </div>
 
         <p>Nous avons structuré la planification du projet en plusieurs phases :</p>

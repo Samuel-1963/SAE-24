@@ -290,15 +290,29 @@ section ul {
   text-align: center;
 }
 
-/* ===== RDV FORM STYLING ===== */
-.formulaire-rdv {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 25px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+/* ===== LANGUAGE BUTTON ===== */
+.btn-langue {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #1565c0;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
+
+.btn-langue:hover {
+  background-color: #0d47a1;
+}
+
+
+/* ===== RDV FORM STYLING ===== */
 
 .formulaire-rdv label {
   display: block;

@@ -45,6 +45,7 @@
                 <?php endif; ?>
             </ul>
         </nav>
+        <a href="en/services.php" class="btn-langue">🇬🇧 English</a>
     </header>
 
 
