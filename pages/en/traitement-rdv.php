@@ -64,19 +64,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <li><a href="#">Professional space</a>
                     <ul class="sous-menu">
                         <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
-                            <li><a href="arborescence.php">Site structure</a></li>
-                            <li><a href="gestion_projet/index.php">Project Management</a></li>
-                            <li><a href="equipe/index.php">Team and Evaluations</a></li>
-                            <li><a href="documentation/index.php">Technical Documentation</a></li>
-                            <li><a href="conclusion/index.php">Communication and Summary</a></li>
+                            <li><a href="../arborescence.php">Arborescence du site</a></li>
+                            <li><a href="../gestion_projet/index.php">Gestion de Projet</a></li>
+                            <li><a href="../equipe/index.php">Équipe et Évaluations</a></li>
+                            <li><a href="../documentation/index.php">Documentation Technique</a></li>
+                            <li><a href="../conclusion/index.php">Communication et Bilan</a></li>
                         <?php endif; ?>
                     </ul>
                 </li>
 
                 <?php if (isset($_SESSION['connecte']) && $_SESSION['connecte'] === true): ?>
-                    <li><a href="deconnexion.php">Logout</a></li>
+                    <li><a href="../deconnexion.php">Logout</a></li>
                 <?php else: ?>
-                    <li><a href="connexion.php">Login</a></li>
+                    <li><a href="../connexion.php">Login</a></li>
                 <?php endif; ?>
             </ul>
         </nav>
