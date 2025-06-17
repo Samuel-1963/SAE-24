@@ -212,6 +212,12 @@ section ul {
   margin-bottom: 0.5rem;
 }
 
+.intro {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #eef6fb;
+}
+
 /* ===== GITHUB LINK BUTTON ===== */
 .lien-github a {
   display: inline-block;
@@ -283,6 +289,136 @@ section ul {
   margin-top: 10px;
   text-align: center;
 }
+
+/* ===== RDV FORM STYLING ===== */
+.formulaire-rdv {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.formulaire-rdv label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.formulaire-rdv input,
+.formulaire-rdv select,
+.formulaire-rdv textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.formulaire-rdv textarea {
+  resize: vertical;
+}
+
+.formulaire-rdv button {
+  display: block;
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #1565c0;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulaire-rdv button:hover {
+  background-color: #0d47a1;
+}
+
+#rdv h2 {
+  text-align: center;
+  color: #1565c0;
+  margin-bottom: 10px;
+}
+
+#rdv p {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.confirmation-section {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.confirmation-section h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.confirmation-section p {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.confirmation-details {
+  text-align: left;
+  margin: 30px 0;
+}
+
+.confirmation-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.confirmation-details li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #444;
+}
+
+.confirmation-details strong {
+  color: #000;
+}
+
+.message-box {
+  margin-top: 5px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  font-style: italic;
+}
+
+.btn-retour {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #1565c0;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-retour:hover {
+  background-color: #0d47a1;
+}
+
 
 /* ===== TEAM MEMBER DISPLAY ===== */
 #equipe {
@@ -367,11 +503,37 @@ section ul {
   color: #444;
 }
 
-.equipe-intro {
-  text-align: center;
-  padding: 2rem 1rem;
-  background-color: #eef6fb;
+/* ===== SERVICES SECTION ===== */
+.service {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #1565c0;
 }
+
+.service h3 {
+  font-size: 1.4em;
+  color: #1565c0;
+  margin-bottom: 10px;
+}
+
+.service p {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.service ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #333;
+}
+
+.service ul li {
+  margin-bottom: 6px;
+}
+
 
 /* ===== WARNING BOXES ===== */
 .info-warning {
@@ -502,23 +664,23 @@ section ul {
   background-color: #e0e0e0;
 }
 
-.page-list {
+.arbo-list {
   display: none;
   padding: 0.5em 1em 1em 2em;
   background-color: #fafafa;
 }
 
-.page-list li {
+.arbo-list li {
   margin-bottom: 0.7em;
 }
 
-.page-list a {
+.arbo-list a {
   font-weight: bold;
   color: #0066cc;
   text-decoration: none;
 }
 
-.page-list a:hover {
+.arbo-list a:hover {
   text-decoration: underline;
 }
 
@@ -541,6 +703,28 @@ section ul {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.page-list {
+  padding: 0.5em 1em 1em 2em;
+  background-color: #fafafa;
+  border-left: 4px solid #1565c0;
+  border-radius: 6px;
+}
+
+.page-list li {
+  margin-bottom: 0.7em;
+}
+
+.page-list a {
+  font-weight: bold;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.page-list a:hover {
+  text-decoration: underline;
+}
+
 
 /* ===== FOOTER SECTION ===== */
 footer {
@@ -586,6 +770,14 @@ footer {
 
   header h1 {
     font-size: 1.8rem;
+  }
+
+  .service {
+    padding: 15px;
+  }
+
+  .service h3 {
+    font-size: 1.2em;
   }
 }
 

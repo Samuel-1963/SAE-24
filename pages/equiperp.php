@@ -48,7 +48,7 @@
     </header>
 
 <main>
-        <section class="equipe-intro">
+        <section class="intro">
             <h2>Une équipe pluridisciplinaire au service de votre santé</h2>
             <p>Notre cabinet réunit des professionnels passionnés, à l'écoute et hautement qualifiés. Découvrez les visages de celles et ceux qui vous accompagnent chaque jour vers le mieux-être.</p>
         </section>

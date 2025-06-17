@@ -48,7 +48,7 @@
     </header>
 
     <main>
-        <section class="equipe-intro">
+        <section class="intro">
             <h2>Équipe & Évaluations</h2>
             <p>Cette catégorie présente les membres du groupe projet, leur rôle, leur bilan personnel, ainsi que les éléments d'évaluation du travail mené.</p>
             <p>Sur cette page, découvrez la composition de l'équipe projet ainsi que les retours d'expérience de chacun. Vous pouvez également consulter :</p>

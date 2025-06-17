@@ -83,28 +83,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </header>
 
     <main>
-        <section class="confirmation-section">
-            <h2>Votre demande a bien été envoyée ✅</h2>
-            <p>Merci <strong><?= $prenom . ' ' . $nom ?></strong> pour votre confiance.</p>
-            <p>Voici un récapitulatif de votre demande :</p>
+    <section class="confirmation-section">
+        <h2>✅ Demande de rendez-vous envoyée</h2>
+        <p>Merci pour votre demande. Nous vous contacterons rapidement pour confirmer le rendez-vous.</p>
 
-            <div class="confirmation-details">
-                <ul>
-                    <li><strong>Nom :</strong> <?= $nom ?></li>
-                    <li><strong>Prénom :</strong> <?= $prenom ?></li>
-                    <li><strong>Email :</strong> <?= $email ?></li>
-                    <li><strong>Date du rendez-vous :</strong> <?= $date ?></li>
-                    <li><strong>Heure :</strong> <?= $heure ?></li>
-                    <li><strong>Type :</strong> <?= ucfirst($type) ?></li>
-                    <?php if (!empty($message)): ?>
-                        <li><strong>Message :</strong><br><div class="message-box"><?= $message ?></div></li>
-                    <?php endif; ?>
-                </ul>
-            </div>
+        <div class="confirmation-details">
+        <ul>
+            <li><strong>Prénom :</strong> <?php echo htmlspecialchars($prenom); ?></li>
+            <li><strong>Nom :</strong> <?php echo htmlspecialchars($nom); ?></li>
+            <li><strong>Adresse e-mail :</strong> <?php echo htmlspecialchars($email); ?></li>
+            <li><strong>Date souhaitée :</strong> <?php echo htmlspecialchars($date); ?></li>
+            <li><strong>Heure souhaitée :</strong> <?php echo htmlspecialchars($heure); ?></li>
+            <li><strong>Type de consultation :</strong> <?php echo htmlspecialchars($type); ?></li>
+            <?php if (!empty($message)) : ?>
+            <li><strong>Message complémentaire :</strong>
+                <div class="message-box"><?php echo nl2br(htmlspecialchars($message)); ?></div>
+            </li>
+            <?php endif; ?>
+        </ul>
+        </div>
 
-            <p>Notre secrétariat vous contactera pour confirmer le rendez-vous selon nos disponibilités.</p>
-            <a href="contact.php" class="btn-retour">⏎ Retour au formulaire</a>
-        </section>
+        <a class="btn-retour" href="index.php">Retour à l'accueil</a>
+    </section>
     </main>
 
     <footer>

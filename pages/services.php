@@ -49,7 +49,7 @@
 
 
     <main>
-        <section class="services-intro">
+        <section class="intro">
             <h2>Des soins de qualité, au cœur de Toulouse</h2>
             <p>Le Cabinet Paramédical Occitania offre une approche globale de la santé, en combinant expertise médicale, technologies modernes et accompagnement humain. Découvrez nos pôles d'intervention, conçus pour répondre à tous vos besoins.</p>
         </section>

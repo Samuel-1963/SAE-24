@@ -46,3 +46,58 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="intro">
+            <h2>Gestion de projet</h2>
+            <p>
+                La gestion de projet a été essentielle pour assurer la réussite de notre SAÉ24. Dès le départ, nous avons défini les rôles de chacun, structuré notre travail autour d’un planning prévisionnel, et mis en place des outils collaboratifs pour le suivi des tâches.
+            </p>
+            <p>
+                Cette rubrique vous permet d'explorer l'ensemble de notre organisation, du diagramme de Gantt aux outils de communication et versionnage, en passant par les problèmes rencontrés pendant la réalisation.
+            </p>
+        </section>
+
+        <section>
+            <h3>Navigation dans la gestion de projet</h3>
+            <ul class="page-list">
+                <li>
+                    <a href="gantt.php">📅 Diagramme de Gantt</a><br>
+                    Visualisation de notre planification prévisionnelle et des échéances majeures du projet.
+                </li>
+                <li>
+                    <a href="outils.php">🛠️ Outils collaboratifs</a><br>
+                    Présentation des plateformes utilisées (Trello, Drive) pour répartir les tâches et centraliser les documents.
+                </li>
+                <li>
+                    <a href="github.php">💻 Suivi GitHub</a><br>
+                    Explication de l'utilisation de Git pour le développement du site web et la collaboration technique.
+                </li>
+                <li>
+                    <a href="problemes.php">⚠️ Problèmes rencontrés</a><br>
+                    Retour sur les difficultés techniques ou organisationnelles, et les solutions mises en place.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        // Gestion du menu mobile
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+
+            this.querySelectorAll('span').forEach(span =>
+                span.classList.toggle('active'));
+
+            const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    </script>
+</body>
+</html>    

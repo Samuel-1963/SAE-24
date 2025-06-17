@@ -56,7 +56,7 @@
 
         <div class="category">
             <button class="toggle-button">Pages publiques</button>
-            <ul class="page-list">
+            <ul class="arbo-list">
                 <li>
                     <a href="../index.php">Page d'accueil</a>
                     <div class="page-desc">Page d'accueil principale du site, accessible à tous.</div>
@@ -86,7 +86,7 @@
 
         <div class="category">
             <button class="toggle-button">Gestion de Projet</button>
-            <ul class="page-list">
+            <ul class="arbo-list">
             <li>
                 <a href="gestion_projet/index.php">Accueil</a>
                 <div class="page-desc">Page d'accueil générale de la section Gestion de Projet.</div>
@@ -112,7 +112,7 @@
 
         <div class="category">
             <button class="toggle-button">Équipe et Évaluations</button>
-            <ul class="page-list">
+            <ul class="arbo-list">
             <li>
                 <a href="equipe/index.php">Accueil</a>
                 <div class="page-desc">Présentation générale des membres de l'équipe.</div>
@@ -130,7 +130,7 @@
 
         <div class="category">
             <button class="toggle-button">Documentation Technique</button>
-            <ul class="page-list">
+            <ul class="arbo-list">
             <li>
                 <a href="documentation/index.php">Accueil</a>
                 <div class="page-desc">Introduction à la documentation technique du projet.</div>
@@ -168,7 +168,7 @@
 
         <div class="category">
             <button class="toggle-button">Communication et Bilan</button>
-            <ul class="page-list">
+            <ul class="arbo-list">
             <li>
                 <a href="communication/index.php">Accueil</a>
                 <div class="page-desc">Introduction à la partie communication et retour d'expérience.</div>
@@ -186,7 +186,7 @@
 
         <div class="category">
             <button class="toggle-button">Connexion / Déconnexion</button>
-            <ul class="page-list">
+            <ul class="arbo-list">
             <li>
                 <a href="connexion.php">Connexion</a>
                 <div class="page-desc">Permet d'accéder à l'espace professionnel avec un identifiant.</div>
