@@ -61,11 +61,14 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
             </p>
         </section>
 
-        <section class="contenu bloc-video">
+        <section class="contenu video-poc">
             <h3>Preuve de concept en vidéo</h3>
-            <div class="video-container">
-                <video controls>
+            <div class="video-wrapper">
+                <video controls preload="metadata" poster="../../documents/apercu-video.jpg">
                     <source src="../../documents/video.mp4" type="video/mp4">
+                    <source src="../../documents/video.webm" type="video/webm">
+                    <source src="../../documents/video.ogg" type="video/ogg">
+                    <source src="../../documents/video.mov" type="video/quicktime">
                     Votre navigateur ne supporte pas la lecture de vidéos HTML5.
                 </video>
             </div>
