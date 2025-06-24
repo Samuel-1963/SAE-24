@@ -109,7 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </main>
 
     <footer>
-        <p>&copy; 2025 Occitania Paramedical Center | Educational fictional website | <a href="../../mentions-legales.php">Legal notices</a></p>
+        <p>&copy; 2025 Occitania Paramedical Center | Educational fictional website | <a href="mentions-legales.php">Legal notices</a></p>
     </footer>
 </body>
 </html>

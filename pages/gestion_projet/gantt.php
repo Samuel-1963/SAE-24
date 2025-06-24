@@ -55,7 +55,7 @@
 
         <div class="download-section">
             <p>Vous pouvez télécharger le fichier source du diagramme Gantt ici :</p>
-            <a href="../documents/SAé24.gan" download class="download-button">📥 Télécharger le Gantt (.gan)</a>
+            <a href="../documents/SAé24.gan" download class="bouton">📥 Télécharger le Gantt (.gan)</a>
         </div>
 
         <div class="image-gantt">

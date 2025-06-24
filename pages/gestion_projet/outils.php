@@ -55,7 +55,7 @@
             <div class="outil">
                 <h2>Trello - Suivi des tâches</h2>
                 <p>Nous avons utilisé un tableau Trello pour répartir les responsabilités, planifier les étapes du projet et suivre l'avancement de chacun.</p>
-                <div class="capture-wrapper">
+                <div class="capture">
                     <img src="../../images/trello_capture.png" alt="Capture du tableau Trello" class="outil-capture">
                     <span class="caption">Tableau Trello collaboratif du projet</span>
                 </div>
@@ -64,7 +64,7 @@
             <div class="outil">
                 <h2>Google Drive - Partage de fichiers</h2>
                 <p>Un dossier Google Drive partagé contenait tous les fichiers utiles au projet : textes, captures, maquettes, vidéos, schémas techniques, etc.</p>
-                <div class="capture-wrapper">
+                <div class="capture">
                     <img src="../../images/drive_capture.png" alt="Capture du Drive partagé" class="outil-capture">
                     <span class="caption">Drive Google partagé entre les membres</span>
                 </div>

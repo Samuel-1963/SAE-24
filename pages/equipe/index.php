@@ -71,7 +71,7 @@
                 </li>
             </ul>
         </section>
-        <section class="contenu">
+        <section>
             <h2>Présentation de l'équipe et bilans individuels</h2>
             <p>La section ci-dessous détaille les rôles de chaque membre du projet, ainsi que leur retour personnel sur le déroulement de la SAÉ24. Elle met en avant la répartition des responsabilités, les tâches effectuées et les impressions de chacun.</p>
         </section>

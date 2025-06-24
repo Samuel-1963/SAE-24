@@ -51,10 +51,10 @@
         <section class="intro">
             <h2>Communication et Bilan</h2>
             <p>
-                La communication autour du projet et le bilan final sont des éléments clés pour valoriser le travail accompli, rendre compte des résultats obtenus, et prendre du recul sur l’ensemble de la SAÉ.
+                La communication autour du projet et le bilan final sont des éléments clés pour valoriser le travail accompli, rendre compte des résultats obtenus, et prendre du recul sur l'ensemble de la SAÉ.
             </p>
             <p>
-                Cette section regroupe notre vidéo de présentation ainsi qu’une conclusion globale, offrant une synthèse des apprentissages, des réussites et des pistes d’amélioration pour l’avenir.
+                Cette section regroupe notre vidéo de présentation ainsi qu'une conclusion globale, offrant une synthèse des apprentissages, des réussites et des pistes d'amélioration pour l'avenir.
             </p>
         </section>
 
