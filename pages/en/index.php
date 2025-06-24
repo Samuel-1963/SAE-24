@@ -67,7 +67,7 @@
             <h2>Practical Information</h2>
             <ul>
                 <li><strong>Address:</strong> 12 rue de la Santé, 31000 Toulouse</li>
-                <li><strong>Phone:</strong> +33 5 61 00 00 00</li>
+                <li><strong>Phone:</strong> 921</li>
                 <li><strong>Opening hours:</strong> Monday to Friday, 8:00 AM - 7:00 PM</li>
                 <li><strong>Access:</strong> Free parking, wheelchair accessible, near Metro Line B</li>
             </ul>
