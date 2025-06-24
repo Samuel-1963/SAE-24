@@ -68,7 +68,7 @@
             <h2>Informations pratiques</h2>
             <ul>
                 <li><strong>Adresse :</strong> 12 rue de la Santé, 31000 Toulouse</li>
-                <li><strong>Téléphone :</strong> 05 61 00 00 00</li>
+                <li><strong>Téléphone :</strong> 921 </li>
                 <li><strong>Horaires d'ouverture :</strong> du lundi au vendredi, 8h00 - 19h00</li>
                 <li><strong>Accès :</strong> Parking gratuit, accès PMR, proche métro Ligne B</li>
             </ul>
