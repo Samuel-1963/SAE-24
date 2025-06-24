@@ -57,14 +57,14 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
         <section class="intro">
             <h2>Vidéo de présentation</h2>
             <p>
-                Cette vidéo de <strong>3 minutes</strong> présente notre preuve de concept réalisée dans le cadre de la SAÉ. Elle illustre les choix techniques, la structure du réseau et les principales fonctionnalités mises en place.
+                Cette vidéo de <strong>3 minutes</strong> présente notre preuve de concept réalisée dans le cadre de la SAÉ. Elle illustre les choix techniques, l’architecture réseau et les principaux services déployés.
             </p>
         </section>
 
-        <section class="contenu video-poc">
+        <section class="bloc-video">
             <h3>Preuve de concept en vidéo</h3>
-            <div class="video-wrapper">
-                <video controls preload="metadata" poster="../../documents/apercu-video.jpg">
+            <div class="video-container">
+                <video controls>
                     <source src="../../documents/video.mp4" type="video/mp4">
                     <source src="../../documents/video.webm" type="video/webm">
                     <source src="../../documents/video.ogg" type="video/ogg">
@@ -74,7 +74,6 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
             </div>
         </section>
     </main>
-
 
     <footer>
         <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
