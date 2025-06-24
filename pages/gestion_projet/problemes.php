@@ -51,17 +51,17 @@
         <section class="intro">
             <h2>Problèmes rencontrés & solutions apportées</h2>
             <p>
-                Tout au long de ce projet, plusieurs problèmes techniques ont été rencontrés. Certains se sont révélés complexes à résoudre, tandis que d’autres ont demandé principalement du temps et de la documentation. Cette section présente les principales difficultés et les solutions mises en place.
+                Tout au long de ce projet, plusieurs problèmes techniques ont été rencontrés. Certains se sont révélés complexes à résoudre, tandis que d'autres ont demandé principalement du temps et de la documentation. Cette section présente les principales difficultés et les solutions mises en place.
             </p>
         </section>
 
         <section class="contenu">
             <h3>Téléphonie analogique & boîtier ATA (PAP2)</h3>
             <p>
-                La configuration du téléphone analogique a posé de nombreuses difficultés, principalement à cause de l’absence d’interface graphique et du comportement instable du boîtier ATA (type PAP2). Ce dernier ne se connectait qu'une fois sur vingt, les autres tentatives échouant avec un voyant rouge allumé.
+                La configuration du téléphone analogique a posé de nombreuses difficultés, principalement à cause de l'absence d'interface graphique et du comportement instable du boîtier ATA (type PAP2). Ce dernier ne se connectait qu'une fois sur vingt, les autres tentatives échouant avec un voyant rouge allumé.
             </p>
             <p>
-                Même en conservant une configuration qui fonctionnait la veille, il arrivait que le téléphone cesse de fonctionner sans raison apparente. La seule solution temporaire efficace a été de réinitialiser l’ensemble du matériel et de reconfigurer depuis zéro.
+                Même en conservant une configuration qui fonctionnait la veille, il arrivait que le téléphone cesse de fonctionner sans raison apparente. La seule solution temporaire efficace a été de réinitialiser l'ensemble du matériel et de reconfigurer depuis zéro.
             </p>
         </section>
 
@@ -85,7 +85,7 @@
         <section class="contenu">
             <h3>Interconnexion réseau entre les sites</h3>
             <p>
-                Lors de l’interconnexion entre les deux sites, l’activation du NAT empêchait toute communication entre eux. Dès que le NAT était désactivé, la liaison redevenait fonctionnelle. Après de nombreux essais infructueux, une solution alternative a été adoptée : un lien physique direct entre les deux routeurs.
+                Lors de l'interconnexion entre les deux sites, l'activation du NAT empêchait toute communication entre eux. Dès que le NAT était désactivé, la liaison redevenait fonctionnelle. Après de nombreux essais infructueux, une solution alternative a été adoptée : un lien physique direct entre les deux routeurs.
             </p>
             <p>
                 Un câble RJ45 croisé a été connecté sur une troisième interface de chaque routeur, permettant une communication stable sans perturber l'accès à Internet.
@@ -95,17 +95,17 @@
         <section class="contenu">
             <h3>Déploiement de logiciels via GPO</h3>
             <p>
-                La mise en place du déploiement par GPO a nécessité de longues recherches malgré la présence de tutoriels. Il a fallu tester plusieurs approches avant d’en obtenir une fonctionnelle.
+                La mise en place du déploiement par GPO a nécessité de longues recherches malgré la présence de tutoriels. Il a fallu tester plusieurs approches avant d'en obtenir une fonctionnelle.
             </p>
             <p>
-                Une découverte importante a été que l'installation d’un nouveau logiciel via GPO nécessite un redéploiement manuel depuis le serveur. Pour palier à cela, un partage réseau sécurisé contenant les applications a été mis à disposition des utilisateurs en cas de besoin.
+                Une découverte importante a été que l'installation d'un nouveau logiciel via GPO nécessite un redéploiement manuel depuis le serveur. Pour palier à cela, un partage réseau sécurisé contenant les applications a été mis à disposition des utilisateurs en cas de besoin.
             </p>
         </section>
 
         <section class="contenu">
             <h3>Installation d'ESXi et XAMPP</h3>
             <p>
-                L’installation des outils comme ESXi et XAMPP s’est globalement bien passée. Seuls quelques petits soucis liés à un manque d’information ou à des erreurs de compréhension sont survenus, mais ils ont été rapidement corrigés grâce à une recherche approfondie.
+                L'installation des outils comme ESXi et XAMPP s'est globalement bien passée. Seuls quelques petits soucis liés à un manque d'information ou à des erreurs de compréhension sont survenus, mais ils ont été rapidement corrigés grâce à une recherche approfondie.
             </p>
         </section>
     </main>

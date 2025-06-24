@@ -89,9 +89,24 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
                         <td>Site web (interface d'administration)</td>
                     </tr>
                     <tr>
-                        <td>Il n'y en as pas</td>
+                        <td> </td>
                         <td>ciscort</td>
                         <td>Point d'accès Wi-Fi (mot de passe global)</td>
+                    </tr>
+                    <tr>
+                        <td>Utilisateurs</td>
+                        <td>h0gt*214</td>
+                        <td>Mot de passe dentiste, medecin kine…</td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td>23646</td>
+                        <td>Fortinet mot de passe avancé</td>
+                    </tr>
+                    <tr>
+                        <td>admin (pour le site uniquement)</td>
+                        <td>000000</td>
+                        <td>Mot de passe admin du ASTRA</td>
                     </tr>
                 </tbody>
             </table>

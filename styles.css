@@ -813,6 +813,23 @@ section ul {
   color: #666;
 }
 
+/* ===== VIDEO POC SECTION ===== */
+.video-poc {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.video-poc video {
+  max-width: 90%;
+  height: auto;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  background-color: #f8f9ff;
+  padding: 0.5rem;
+}
+
+
 /* ===== TABLE STYLES ===== */
 .table {
   width: 100%;

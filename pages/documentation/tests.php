@@ -104,7 +104,7 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
         </section>
 
         <section class="contenu">
-            <h3>Test d’interconnexion réseau entre sites</h3>
+            <h3>Test d'interconnexion réseau entre sites</h3>
             <p>
                 Nous pouvons communiquer entre nous et nous avons accès à Internet. Ce qui manque, c'est l'interconnexion réseau. Alors, nous effectuons un ping vers l'un de leurs appareils, puis un tracert pour nous assurer du bon acheminement.
             </p>

@@ -52,3 +52,40 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="intro">
+            <h2>Vidéo de présentation</h2>
+            <p>
+                Cette vidéo de <strong>3 minutes</strong> présente notre preuve de concept réalisée dans le cadre de la SAÉ. Elle illustre les choix techniques, la structure du réseau et les principales fonctionnalités mises en place.
+            </p>
+        </section>
+
+        <section class="contenu video-poc">
+            <h3>Preuve de concept en vidéo</h3>
+            <video controls>
+                <source src="../../documents/video.mov" type="video/quicktime">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cabinet Paramédical Occitania | Site fictif pédagogique | <a href="../mentions-legales.php">Mentions légales</a></p>
+    </footer>
+
+    <script>
+        // Gestion du menu mobile
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+
+            this.querySelectorAll('span').forEach(span =>
+                span.classList.toggle('active'));
+
+            const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    </script>
+</body>
+</html>   
