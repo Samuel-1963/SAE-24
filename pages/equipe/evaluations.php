@@ -1,4 +1,10 @@
 <?php session_start(); ?>
+<?php
+if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
+    header("Location: ../connexion.php"); // Redirige vers la page de connexion
+    exit(); // Arrête le chargement de la page
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
