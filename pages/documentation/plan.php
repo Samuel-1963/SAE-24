@@ -11,7 +11,7 @@
 <body>
     <header>
         
-        <a href="../index.php" class="titre-accueil">
+        <a href="../../index.php" class="titre-accueil">
             <h1>Cabinet Paramédical Occitania</h1>
         </a>
         
