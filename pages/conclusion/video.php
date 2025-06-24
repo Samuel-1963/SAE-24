@@ -65,7 +65,7 @@ if (!isset($_SESSION['connecte']) || $_SESSION['connecte'] !== true) {
             <h3>Preuve de concept en vidéo</h3>
             <div class="video-container">
                 <video controls>
-                    <source src="../../documents/video.mp4" type="video/mp4">
+                    <source src="../../documents/video.mov" type="video/quicktime">
                     Votre navigateur ne supporte pas la lecture de vidéos HTML5.
                 </video>
             </div>
